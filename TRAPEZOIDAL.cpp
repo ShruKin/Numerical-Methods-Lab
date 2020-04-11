@@ -2,8 +2,7 @@
 #include<math.h>
 
 float f(float x){
-   /*	return (4*x-3*x*x);
-	*/
+   
 	return (1/(1+x));
 	
 }
