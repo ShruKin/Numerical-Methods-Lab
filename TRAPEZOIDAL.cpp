@@ -9,8 +9,7 @@ float f(float x){
 
 int main(){
 	
-	float a,b,n,h,sum1=0,sum2=0,sum,y0,yn;
-	int i;
+	float a,b,n,h,sum;
 	
 	printf("Enter the lower limit : ");
 	scanf("%f",&a);
