@@ -11,8 +11,10 @@ int main(int argc, char const *argv[])
     double a, b, x0, x1, x2;
     int n=0;
 
-    printf("Enter interval: ");
-    scanf("%lf%lf", &a, &b);
+    do{
+        printf("Enter the valus of a and b: ");
+        scanf("%lf%lf", &a, &b);
+    }while(foo(a)*foo(b) > 0);
 
     printf("\nn\tx0\t\tx1\t\tx2\t\tf(x2)\t\tf(x0)\t\tf(x1)\n");
     for(int i=0; i<26; i++)

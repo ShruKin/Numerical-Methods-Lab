@@ -14,15 +14,20 @@ int main(int argc, char const *argv[])
 {
     double a = 0, x, h;
     int n = 0;
-    printf("f(%g) = %0.5lf\n", a, fun(a));
-    while(fun(a) * fun(a+1) >= 0){
-        printf("f(%g) = %0.5lf\n", a+1, fun(a+1));
-        a++;
-    }
-    printf("f(%g) = %0.5lf\n", a+1, fun(a+1));
+    // printf("f(%g) = %0.5lf\n", a, fun(a));
+    // while(fun(a) * fun(a+1) >= 0){
+    //     printf("f(%g) = %0.5lf\n", a+1, fun(a+1));
+    //     a++;
+    // }
+    // printf("f(%g) = %0.5lf\n", a+1, fun(a+1));
 
-    x = a + 0.5;
-    printf("\nThe root of the equation lies in the range [%g, %g]", a, a+1);
+    // x = a + 0.5;
+    // printf("\nThe root of the equation lies in the range [%g, %g]", a, a+1);
+
+    printf("Enter initial guess value: ");
+    scanf("%lf", &a);
+
+    x = a;
     printf("\nHence, considering the initial value of X as = %g\n", x);
     
     printf("\nn\t\tXn\t\tf(Xn)\t\t\tf'(Xn)\t\t\th\t\tXn+1\n");

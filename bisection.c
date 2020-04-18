@@ -4,10 +4,6 @@
 
 #define ex 0.0001
 
-// double foo(double x){
-//     return pow(x,3) - x - 4;
-// }
-
 double foo(double x){
     return pow(x,3) - x -11;
 }
