@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     do{
         printf("Enter the valus of a and b: ");
         scanf("%lf%lf", &a, &b);
-    }while(foo(a)*foo(b) > 0);
+    }while(f(a)*f(b) > 0);
 
     printf("\nn\tx0\t\tx1\t\tx2\t\tf(x2)\t\tf(x0)\t\tf(x1)\n");
     for(int i=0; i<26; i++)
